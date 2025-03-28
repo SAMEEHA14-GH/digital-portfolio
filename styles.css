@@ -1,0 +1,65 @@
+/*Portfolio Style*/
+body{
+  margin:2 rem;
+  border-radius:20 px;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to bottom, #6a11cb, #2575fc); /*purple to blue gradient*/
+  color: #fff;
+}
+.portfolio-contaner {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+  gap: 20px;
+}
+.box{
+  flex: 0 1 calc(30% - 20px);
+  background:linear-gradient(to bottom right, #9b59b6, #3498db);
+  broder-radius: 10px;
+  box-shadow: 0px 5px 15px rgba(0,0,0,0.5);
+  padding:20px;
+  translation:transform 0.3s ease;
+}
+.box:hover{
+  transform: scale(1.05);
+}
+box h3{
+  margin: 0 0 10px 0;
+  font-size: 2.5em;
+  text-align: center;
+  color: #fff;
+}
+.box p{
+  font-size: 1em;
+  line-height: 1.6;
+  text-align:justify;
+  color: #f1f1f1;
+}
+.resume-box{
+  flex: 0 1 calc(30% - 20px);
+  background: linear-gradient(to bottom right, #34495e. #2ecc71);
+  border-radius: 10px;
+  box-shadow: 0px 5px 15px rgba(0,0,0,0.5);
+  padding: 20px;
+  text-align: center;
+  transition: transform 0,3s ease;
+}
+.resume-box hover{
+  transfrm: scale(1.05);
+}
+.resume-box a{
+  color: #fff;
+  text-decoration:none;
+  font-weight:bold;
+  font-size:1.2em;
+  background: liear-gradient(to right, #f39c12, #d35400);
+  padding: 10px 20 px;
+  border-radius: 20px;
+  display:inline-block;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.4);
+}
+.resume-box a:hover{
+  backgroud: linear-gradient(to right, #d35400, #f39c12);
+}
+  
